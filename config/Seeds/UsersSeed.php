@@ -23,25 +23,22 @@ class UsersSeed extends BaseSeed
     {
         $data = [
             [
-                'username' => 'Himanshu',
-                'password' => password_hash('himanshu123', PASSWORD_DEFAULT),
                 'email' => 'himanshu@gmail.com',
-                'created' => date('Y-m-d H:i:s'),
-                'modified' => date('Y-m-d H:i:s'),
+                'password' => password_hash('password123', PASSWORD_DEFAULT),
+                'created' => '2024-10-27 10:00:00',
+                'modified' => '2024-10-27 10:00:00',
             ],
             [
-                'username' => 'admin',
-                'password' => password_hash('admin123', PASSWORD_DEFAULT),
                 'email' => 'admin@example.com',
-                'created' => date('Y-m-d H:i:s'),
-                'modified' => date('Y-m-d H:i:s'),
+                'password' => password_hash('admin123', PASSWORD_DEFAULT),
+                'created' => '2024-10-27 11:00:00',
+                'modified' => '2024-10-27 11:00:00',
             ],
             [
-                'username' => 'user1',
-                'password' => password_hash('user1234', PASSWORD_DEFAULT),
                 'email' => 'user1@example.com',
-                'created' => date('Y-m-d H:i:s'),
-                'modified' => date('Y-m-d H:i:s'),
+                'password' => password_hash('user1234', PASSWORD_DEFAULT),
+                'created' => '2024-10-27 12:00:00',
+                'modified' => '2024-10-27 12:00:00',
             ],
         ];
 
